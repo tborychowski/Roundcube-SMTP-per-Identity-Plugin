@@ -1,8 +1,8 @@
 identity_smtp Roundcube Plugin
 ==============================
 
-This roundcube plugin allows to setup identities with different smtp servers
-than the servers default.
+This roundcube plugin allows to setup identities with different smtp servers than the servers default.
+
 
 Installation
 ============
@@ -13,7 +13,7 @@ Manual Installation
 -------------------
 
     $ cd /path/to/roundcube/plugins
-    $ git clone git://github.com/elm/Roundcube-SMTP-per-Identity-Plugin.git identity_smtp
+    $ git clone https://github.com/tborychowski/Roundcube-SMTP-per-Identity-Plugin identity_smtp
 
 The plugins folder must be named identity_smtp.
 
@@ -31,11 +31,8 @@ to use to send a mail.
 Examples
 --------
 ### Gmail
-* Server IP/Hostname: tls://smtp.gmail.com
-* Server Port: 587
+* Server IP/Hostname: ssl://smtp.gmail.com
+* Server Port: 465
 * Username: example@gmail.com
-* Password: ...
+* Password: <your app password here>
 
-Contact
-=======
-You can contact me at elm -at- skweez.net
